@@ -1,9 +1,12 @@
 /*
- * IS4010 Fal 2019
- * Assignment 05
- * Bill Nicholson
- * nicholdw@ucmail.uc.edu
- */
+* Tianyang Zhao    
+* zhaotg@mail.uc.edu    
+* Assignment 05
+* Due Date:10/03
+* Description:Football Score Translator
+* Citation:
+* Course: Java Dev
+*/
 package footballFun;
 
 public class FootballFun {
@@ -25,6 +28,11 @@ public class FootballFun {
 			System.out.println("At least one test failed");
 		}
 	}
+	/**
+	 * 
+	 * @param score football score
+	 * @return translated score
+	 */
 	public static String translateScore (int score) {
 		if (score == 2) { return  "safety"; }
 		if (score == 3) { return  "field goal";}
